@@ -1,14 +1,9 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
+--// ROBLOSECURITY REQUIRED - Short for Roblox Cookie I promise this is safe it's fully open source
+return function(Cookie)
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
 local HttpService = game:GetService("HttpService")
 local UserInputService = game:GetService("UserInputService")
-
---// Config
-local Cookie = "" --// ROBLOSECURITY REQUIRED - Short for Roblox Cookie I promise this is safe it's fully open source
---// STREAMERS OR PLAYERS JOINS ARE NEEDED TO BE ON FOR IT TO WORK.
 
 local gui = Instance.new("ScreenGui", Players.LocalPlayer:WaitForChild("PlayerGui"))
 gui.Name = "StreamSniper"
